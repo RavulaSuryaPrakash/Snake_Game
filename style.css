@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "game";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "game", sans-serif;
+  height: 100vh;
+  background-color: #222738;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6e7888;
+}
+header {
+  margin: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+#playground {
+  position: relative;
+  background-color: rgb(20, 30, 51);
+  border: #6e7888 solid 5px;
+}
+#btn {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 65px;
+  text-align: center;
+  padding: 6px 10px;
+  background: #6e7888;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #222738;
+  border-radius: 20px;
+  user-select: none;
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#btn:hover {
+  background: #a6aab5;
+  background: #4cffd7;
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.bone {
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  border: 1px solid #333;
+}
+.meat {
+  position: absolute;
+  background: rgb(255, 25, 0);
+  border-radius: 50%;
+}
+
+footer {
+  margin-bottom: 1rem;
+  margin-top: 50px;
+  font-size: 5px;
+}
+a {
+  color: #6e7888;
+  text-decoration: none;
+}
